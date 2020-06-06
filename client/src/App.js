@@ -10,9 +10,7 @@ import { UserProvider } from "./context/user/UserState";
 function App() {
   return (
     <UserProvider>
-      {/* <AppNavbar></AppNavbar> */}
-        <Login></Login>
-        <Register></Register>
+        <AppNavbar></AppNavbar>
         <Logout></Logout>
     </UserProvider>
   );
